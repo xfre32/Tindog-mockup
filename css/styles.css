@@ -1,0 +1,159 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-sec{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-sec{
+  background-color: #fff;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.navbar {
+  padding : 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding-right: 20px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.big-head {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tin-dog {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.downloads {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial */
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press */
+
+.press-logo {
+  padding: 2% 2% 5%;
+  width: 15%;
+}
+
+/* Pricing */
+
+.cc {
+  padding: 3% 2%;
+}
+
+.sec-head {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.price-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 5% 5% 1%;
+}
+
+.ficon {
+  margin: 1%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .tin-dog {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .press-logo {
+    width: 35%;
+  }
+
+}
